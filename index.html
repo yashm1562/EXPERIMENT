@@ -1,154 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Photography</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__header">
-        <div class="nav__logo">
-          <a href="#">
-            <img src="logo.png" alt="logo" />
-          </a>
-        </div>
-        <div class="nav__menu__btn" id="menu-btn">
-          <i class="ri-menu-3-line"></i>
-        </div>
-      </div>
-      <ul class="nav__links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Photography Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f9f9;
+      color: #333;
+    }
 
-    <header id="home">
-      <div class="section__container header__container">
-        <div class="header__image">
-          <img src="header.png" alt="header" />
-        </div>
-        <div class="header__content">
-          <h1>Photographer & Film Maker</h1>
-          <h2>Ahmedabad, India</h2>
-          <div class="header__btn">
-            <button class="btn">HIRE ME</button>
-          </div>
-        </div>
-      </div>
-    </header>
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
 
-    <section class="section__container about__container" id="about">
-      <div class="about__image">
-        <img src="about.png" alt="about" />
-      </div>
-      <div class="about__content">
-        <h2 class="section__header">About Me</h2>
-        <p>
-          Hi, I'm Sarthak Mulani, a passionate Photographer and Filmmaker dedicated
-          to capturing moments that tell stories. I specialize in creating
-          stunning visuals that resonate emotionally and creatively.
-        </p>
-        <p>
-          Whether it's through the lens of a camera or the framing of a
-          cinematic shot, I strive to bring authenticity and artistry to every
-          project.
-        </p>
-        <div class="about__btn">
-          <button class="btn">VIEW MY WORKS</button>
-        </div>
-      </div>
-    </section>
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
 
-    <section class="section__container portfolio__container" id="portfolio">
-      <h2 class="section__header">Portfolio</h2>
-      <div class="portfolio__grid">
-        <div>
-          <img src="portfolio-1.png" alt="portfolio" />
-          <img src="portfolio-2.png" alt="portfolio" />
-          <img src="portfolio-3.png" alt="portfolio" />
-        </div>
-        <div>
-          <img src="portfolio-4.png" alt="portfolio" />
-          <img src="portfolio-5.png" alt="portfolio" />
-        </div>
-        <div>
-          <img src="portfolio-6.png" alt="portfolio" />
-          <img src="portfolio-7.png" alt="portfolio" />
-        </div>
-      </div>
-    </section>
+    h2 {
+      margin-top: 0;
+    }
 
-  <section class="contact" id="contact">
-  <div class="section__container contact__container">
-    <div class="contact__content">
-      <h2 class="section__header">Contact Me</h2>
-      <p>
-        Have a project in mind or need a photographer or filmmaker to bring
-        your vision to life? I'd love to hear from you!
-      </p>
-      <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLSeFDDR0GfBBK1qlEFSMAStSu54_mc8DBseoQbAMO9WN_-JHgQ/viewform?embedded=true" 
-        width="100%" 
-        height="800" 
-        frameborder="0" 
-        marginheight="0" 
-        marginwidth="0">
-        Loading…
-      </iframe>
+    .form-container {
+      margin-top: 2rem;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Let's Connect</h1>
+  </header>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have a project in mind or need a photographer or filmmaker to bring your vision to life? I’d love to hear from you!</p>
+
+    <div class="form-container">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFDDR0GfBBK1qlEFSMAStSu54_mc8DBseoQbAMO9WN_-JHgQ/viewform?embedded=true">Loading…</iframe>
     </div>
-    <div class="contact__image">
-      <img src="contact.png" alt="contact" />
-    </div>
-  </div>
-</section>
+  </section>
 
+  <footer>
+    <p>&copy; 2025 Your Name | Photography Portfolio</p>
+  </footer>
 
-    <footer>
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <h4 class="section__header">Get In Touch</h4>
-          <p>
-            Reach out for inquiries, collaborations, or just to say hello—I'd
-            love to connect with you.
-          </p>
-        </div>
-        <div class="footer__col">
-          <h4 class="section__header">Where's My Office?</h4>
-          <p>55,Viswamitra Society,Jivraj park ,Vejalpur Road,Ahmedabad,380051</p>
-        </div>
-        <div class="footer__col">
-          <h4 class="section__header">My Social Links</h4>
-          <ul class="footer__socials">
-            <li>
-              <a href="#"><i class="ri-facebook-fill"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ri-twitter-fill"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ri-pinterest-line"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/avsar_films_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="ri-instagram-line"></i></a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/@avsarfilms_sarthak"><i class="ri-youtube-fill"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="main.js"></script>
-  </body>
+</body>
 </html>
